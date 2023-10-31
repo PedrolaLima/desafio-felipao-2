@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Partidas Ranquadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Calculadora de Partidas Ranqueadas</h1>
+
+        <div id="bloco">
+            Digite o número de <span id="win">vitórias</span>: <input type="number" min="0" id="vit">
+            <br>
+
+            Digite o número de <span id="losses">derrotas</span>: <input type="number" min="0" id="der">
+            <br>
+
+            <button onclick="calc()"id= "calc">Calcular!</button>
+            <br>
+            <br>
+            
+            <label id="categoria"></label>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#bloco{
+    margin-left: 200px;
+    color: wheat;
+}
+
+#bloco button[id="calc"] {
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#bloco input[id="vit"]{
+    margin-left: 10px;
+}
+
+#bloco input[id="der"]{
+    margin-left: 5px;
+}
+
+#win{
+    color: green
+}
+
+#losses{
+    color: red
+}
+
+body {
+    margin-top: 80px;
+    margin-left: 600px;
+    background-color: darkslateblue;
+    color: yellow;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+body label{
+    margin-right: 800px; 
+};
+
+
